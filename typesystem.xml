@@ -1,0 +1,77 @@
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <types>
+        <typeDescription>
+            <name>webanno.custom.ADR_entity</name>
+            <description/>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+
+            <features>
+                <featureDescription>
+                    <name>DrugStatus</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>Label</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>Negation</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>Sentiment</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>Time</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+            </features>
+        </typeDescription>
+
+
+
+        <typeDescription>
+            <name>webanno.custom.ADR_relation</name>
+            <description/>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>Dependent</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>Governor</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>relation</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+            </features>
+        </typeDescription>
+
+        <typeDescription>
+            <name>de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence</name>
+            <description />
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+            <features />
+        </typeDescription>
+
+        <typeDescription>
+            <name>de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token</name>
+            <description />
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+            <features />
+        </typeDescription>
+
+    </types>
+</typeSystemDescription>
