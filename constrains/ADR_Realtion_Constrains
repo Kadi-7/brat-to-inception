@@ -1,0 +1,7 @@
+import webanno.custom.ADR_relation as RelationType;
+import webanno.custom.ADR_entity as EntityType;
+
+RelationType{
+Governor.Label="drug" & Dependent.Label="disorder" -> Relation="caused";
+Governor.Label="disorder" & Dependent.Label="disorder" -> Relation="caused";
+}

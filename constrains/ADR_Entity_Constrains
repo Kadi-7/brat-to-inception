@@ -1,0 +1,11 @@
+import webanno.custom.ADR_entity as Event;
+
+Event{
+Label="drug" -> DrugStatus="stopped" | DrugStatus="stopped" | DrugStatus="increased" | DrugStatus="decreased" | DrugStatus="unique_dose";
+
+Label="evaluation / assessment" -> Sentiment="positive" | Sentiment="negative" | Sentiment="neutral";
+
+Label="time" -> Time="frequency" | Time="relative_point_in_time" | Time="duration" | Time="date";
+
+Label="disorder" -> Negation="negated" | Negation="not negated";
+}
