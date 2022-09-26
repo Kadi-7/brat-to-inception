@@ -1,0 +1,244 @@
+[ {
+  "name" : "webanno.custom.ADR_entity",
+  "features" : [ {
+    "name" : "DrugStatus",
+    "tag_set" : {
+      "name" : "ADR_Drug_Attributes",
+      "description" : null,
+      "language" : null,
+      "tags" : [ {
+        "tag_name" : "decreased",
+        "tag_description" : null
+      }, {
+        "tag_name" : "increased",
+        "tag_description" : null
+      }, {
+        "tag_name" : "started",
+        "tag_description" : null
+      }, {
+        "tag_name" : "stopped",
+        "tag_description" : null
+      }, {
+        "tag_name" : "unique_dose",
+        "tag_description" : null
+      } ],
+      "create_tag" : false
+    },
+    "uiName" : "DrugStatus",
+    "type" : "uima.cas.String",
+    "enabled" : true,
+    "visible" : true,
+    "include_in_hover" : false,
+    "required" : false,
+    "remember" : false,
+    "hideUnconstraintFeature" : true,
+    "description" : null,
+    "project_name" : "test_n",
+    "multi_value_mode" : "NONE",
+    "link_mode" : "NONE",
+    "link_type_name" : null,
+    "link_type_role_feature_name" : null,
+    "link_type_target_feature_name" : null,
+    "traits" : "{\"multipleRows\":false,\"dynamicSize\":false,\"collapsedRows\":1,\"expandedRows\":1,\"editorType\":\"AUTO\",\"keyBindings\":[]}",
+    "curatable" : true
+  }, {
+    "name" : "Label",
+    "tag_set" : {
+      "name" : "ADR_Tagset",
+      "description" : null,
+      "language" : null,
+      "tags" : [ {
+        "tag_name" : "anatomy",
+        "tag_description" : null
+      }, {
+        "tag_name" : "disorder",
+        "tag_description" : null
+      }, {
+        "tag_name" : "doctor",
+        "tag_description" : null
+      }, {
+        "tag_name" : "drug",
+        "tag_description" : null
+      }, {
+        "tag_name" : "drug status change trigger",
+        "tag_description" : null
+      }, {
+        "tag_name" : "evaluation / assessment",
+        "tag_description" : null
+      }, {
+        "tag_name" : "function",
+        "tag_description" : null
+      }, {
+        "tag_name" : "measure",
+        "tag_description" : null
+      }, {
+        "tag_name" : "opinion",
+        "tag_description" : null
+      }, {
+        "tag_name" : "other",
+        "tag_description" : null
+      }, {
+        "tag_name" : "personal information",
+        "tag_description" : null
+      }, {
+        "tag_name" : "route",
+        "tag_description" : null
+      }, {
+        "tag_name" : "test",
+        "tag_description" : null
+      }, {
+        "tag_name" : "time",
+        "tag_description" : null
+      }, {
+        "tag_name" : "url",
+        "tag_description" : null
+      }, {
+        "tag_name" : "user",
+        "tag_description" : null
+      } ],
+      "create_tag" : false
+    },
+    "uiName" : "Label",
+    "type" : "uima.cas.String",
+    "enabled" : true,
+    "visible" : true,
+    "include_in_hover" : false,
+    "required" : true,
+    "remember" : false,
+    "hideUnconstraintFeature" : false,
+    "description" : null,
+    "project_name" : "test_n",
+    "multi_value_mode" : "NONE",
+    "link_mode" : "NONE",
+    "link_type_name" : null,
+    "link_type_role_feature_name" : null,
+    "link_type_target_feature_name" : null,
+    "traits" : "{\"multipleRows\":false,\"dynamicSize\":false,\"collapsedRows\":1,\"expandedRows\":1,\"editorType\":\"AUTO\",\"keyBindings\":[]}",
+    "curatable" : true
+  }, {
+    "name" : "Negation",
+    "tag_set" : {
+      "name" : "ADR_Negation_Attributes",
+      "description" : null,
+      "language" : null,
+      "tags" : [ {
+        "tag_name" : "negated",
+        "tag_description" : null
+      }, {
+        "tag_name" : "not negated",
+        "tag_description" : null
+      } ],
+      "create_tag" : false
+    },
+    "uiName" : "Negation",
+    "type" : "uima.cas.String",
+    "enabled" : true,
+    "visible" : true,
+    "include_in_hover" : false,
+    "required" : false,
+    "remember" : false,
+    "hideUnconstraintFeature" : true,
+    "description" : null,
+    "project_name" : "test_n",
+    "multi_value_mode" : "NONE",
+    "link_mode" : "NONE",
+    "link_type_name" : null,
+    "link_type_role_feature_name" : null,
+    "link_type_target_feature_name" : null,
+    "traits" : "{\"multipleRows\":false,\"dynamicSize\":false,\"collapsedRows\":1,\"expandedRows\":1,\"editorType\":\"AUTO\",\"keyBindings\":[]}",
+    "curatable" : true
+  }, {
+    "name" : "Sentiment",
+    "tag_set" : {
+      "name" : "ADR_Eval_Attributes",
+      "description" : null,
+      "language" : null,
+      "tags" : [ {
+        "tag_name" : "negative",
+        "tag_description" : "Describes a negative evaluation or assessment of a patient's health / mental state or his/her experience with a medication."
+      }, {
+        "tag_name" : "neutral",
+        "tag_description" : "Describes a neutral evaluation of an experience or health state."
+      }, {
+        "tag_name" : "positive",
+        "tag_description" : "Describes a positive evaluation or assessment of the patient health status or experience with a medication."
+      } ],
+      "create_tag" : false
+    },
+    "uiName" : "Sentiment",
+    "type" : "uima.cas.String",
+    "enabled" : true,
+    "visible" : true,
+    "include_in_hover" : false,
+    "required" : false,
+    "remember" : false,
+    "hideUnconstraintFeature" : true,
+    "description" : "Describes the sentiment of an evaluation or assessment.",
+    "project_name" : "test_n",
+    "multi_value_mode" : "NONE",
+    "link_mode" : "NONE",
+    "link_type_name" : null,
+    "link_type_role_feature_name" : null,
+    "link_type_target_feature_name" : null,
+    "traits" : "{\"multipleRows\":false,\"dynamicSize\":false,\"collapsedRows\":1,\"expandedRows\":1,\"editorType\":\"RADIOGROUP\",\"keyBindings\":[]}",
+    "curatable" : true
+  }, {
+    "name" : "Time",
+    "tag_set" : {
+      "name" : "ADR_Time_Attributes",
+      "description" : null,
+      "language" : null,
+      "tags" : [ {
+        "tag_name" : "date",
+        "tag_description" : "Examples: \"24.12.2050\""
+      }, {
+        "tag_name" : "duration",
+        "tag_description" : "Examples: \"for two weeks\", \"at night\""
+      }, {
+        "tag_name" : "frequency",
+        "tag_description" : "Examples: \"twice a day\", \"every Monday\""
+      }, {
+        "tag_name" : "relative_point_in_time",
+        "tag_description" : "Examples: \"last Monday\", \"in two weeks\"."
+      } ],
+      "create_tag" : false
+    },
+    "uiName" : "Time",
+    "type" : "uima.cas.String",
+    "enabled" : true,
+    "visible" : true,
+    "include_in_hover" : false,
+    "required" : false,
+    "remember" : false,
+    "hideUnconstraintFeature" : true,
+    "description" : null,
+    "project_name" : "test_n",
+    "multi_value_mode" : "NONE",
+    "link_mode" : "NONE",
+    "link_type_name" : null,
+    "link_type_role_feature_name" : null,
+    "link_type_target_feature_name" : null,
+    "traits" : "{\"multipleRows\":false,\"dynamicSize\":false,\"collapsedRows\":1,\"expandedRows\":1,\"editorType\":\"AUTO\",\"keyBindings\":[]}",
+    "curatable" : true
+  } ],
+  "uiName" : "ADR_entity",
+  "type" : "span",
+  "description" : null,
+  "enabled" : true,
+  "built_in" : false,
+  "readonly" : false,
+  "attach_type" : null,
+  "attach_feature" : null,
+  "allow_stacking" : true,
+  "cross_sentence" : true,
+  "show_hover" : true,
+  "anchoring_mode" : "CHARACTERS",
+  "overlap_mode" : "STACKING_ONLY",
+  "validation_mode" : "ALWAYS",
+  "lock_to_token_offset" : false,
+  "multiple_tokens" : false,
+  "project_name" : "test_n",
+  "linked_list_behavior" : false,
+  "on_click_javascript_action" : null,
+  "traits" : null
+} ]
